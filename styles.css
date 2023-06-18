@@ -12,10 +12,11 @@ body {
     --primary-text-color: #121215;
     --secondary-text-color: #333336;
     --durability-text-color: #4446499c;
+    --background-light-color: #f9f9f99c;
     --icon-color: #626e7c;
     --primary-dark-color: #09494b;
     --primary-medium-color: #07a7ac;
-    --primary-light-color: #d8f7f8;
+    --primary-light-color: #eefafb;
     --secondary-dark-color: #6d2c07;
     --secondary-medium-color: #fea002;
     --secondary-light-color: #fef9f5;
@@ -26,6 +27,9 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+a {
+    text-decoration: none;
 }
 
 /* .container {
@@ -132,42 +136,61 @@ img {
 /* projects style */
 
 .projects {
-    margin-bottom: 50px;
+    margin-bottom: 32px;
 }
 
 .title {
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    color: #000000;
-    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--secondary-text-color);
+    margin-bottom: 16px;
 }
 
 .project-list {
     padding: 0;
-    margin-left: 15px;
+    list-style-type: none;
 }
 
 .project-item {
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
-    color: #000000;
+    color: var(--secondary-text-color);
+    background-color: var(--background-light-color);
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.1);
 }
 
 .project,
 .project-link {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
-    color: #595959;
+    color: inherit;
+}
+
+.project {
+    color: var(--durability-text-color);
+}
+.title-link {
+    color: var(--secondary-dark-color);
+}
+
+.title-span {
+    color: var(--primary-medium-color);
 }
 
 .project-link {
-    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 20px;
+    /* margin-left: 10px; */
 }
 
 .project-bracket {
@@ -175,7 +198,7 @@ img {
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    color: #000000;
+    color: var(--durability-text-color);
 }
 
 /* work style */
