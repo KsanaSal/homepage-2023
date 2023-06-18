@@ -107,7 +107,8 @@ img {
 
 .contacts,
 .tech-skills,
-.soft-skills {
+.soft-skills,
+.languages {
     margin-left: 32px;
     margin-bottom: 32px;
 }
@@ -152,19 +153,22 @@ img {
 /* tech-skills and soft-skills style */
 
 .tech-skills-list,
-.soft-skills-list {
+.soft-skills-list,
+.languages-list {
     color: #ffffff;
     padding: 0;
     margin-left: 18px;
 }
 
 .tech-skills-item,
-.soft-skills-item {
+.soft-skills-item,
+.languages-item {
     color: var(--text-decoration-color);
 }
 
 .tech-skills-text,
-.soft-skills-text {
+.soft-skills-text,
+.languages-text {
     color: #ffffff;
     font-style: normal;
     font-weight: normal;
