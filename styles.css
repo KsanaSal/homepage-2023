@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
     line-height: 1.5;
 
     --primary-text-color: #131317;
@@ -86,7 +86,7 @@ body {
 
 .sidebar {
     background-color: var(--primary-dark-color);
-    padding-top: 40px;
+    padding: 40px 24px;
     width: 370px;
 }
 
@@ -106,12 +106,16 @@ body {
 }
 
 .sidebar-title {
-    color: #ffffff;
+    color: var(--secondary-medium-color);
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 10px;
+}
+
+.contact-wrap {
+    display: flex;
 }
 
 .contact-type {
@@ -129,12 +133,13 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
-    opacity: 0.5;
-}
-
-.contact-link-phone {
+    /* opacity: 0.5; */
     text-decoration: none;
 }
+
+/* .contact-link-phone {
+    text-decoration: none;
+} */
 
 .tech-skills-list,
 .soft-skills-list {
@@ -145,7 +150,7 @@ body {
 
 .tech-skills-item,
 .soft-skills-item {
-    color: #fb6d3a;
+    color: var(--text-decoration-color);
 }
 
 .tech-skills-text,
@@ -155,6 +160,12 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--secondary-light-color);
 }
 
 /* Contact info styles */
