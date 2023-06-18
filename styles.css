@@ -82,6 +82,81 @@ body {
     }
 }
 
+/* sidebar style */
+
+.sidebar {
+    background-color: var(--primary-dark-color);
+    padding-top: 40px;
+    width: 370px;
+}
+
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+    margin-left: 40px;
+}
+
+.contacts {
+    margin-bottom: 50px;
+}
+
+.sidebar-title {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.contact-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-right: 8px;
+}
+
+.contact-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.contact-link-phone {
+    text-decoration: none;
+}
+
+.tech-skills-list,
+.soft-skills-list {
+    color: #ffffff;
+    padding: 0;
+    margin-left: 18px;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+    color: #fb6d3a;
+}
+
+.tech-skills-text,
+.soft-skills-text {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
 /* Contact info styles */
 .contact-info__header,
 .contact-info__sub-header {
