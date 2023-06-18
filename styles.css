@@ -103,21 +103,20 @@ img {
     overflow: hidden;
 }
 
+/* contacts style */
+
 .contacts,
 .tech-skills,
 .soft-skills {
-    margin-left: 40px;
-}
-
-.contacts {
-    margin-bottom: 50px;
+    margin-left: 32px;
+    margin-bottom: 32px;
 }
 
 .sidebar-title {
     color: var(--secondary-medium-color);
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 27px;
     margin-bottom: 10px;
 }
@@ -126,6 +125,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    font-size: ;
 }
 
 .contact-wrap {
@@ -134,28 +134,22 @@ img {
     align-items: center;
 }
 
-.contact-type {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    color: #ffffff;
-    margin-right: 8px;
-}
-
 .contact-link {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #ffffff;
-    /* opacity: 0.5; */
     text-decoration: none;
 }
 
-/* .contact-link-phone {
-    text-decoration: none;
-} */
+.icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--secondary-light-color);
+}
+
+/* tech-skills and soft-skills style */
 
 .tech-skills-list,
 .soft-skills-list {
@@ -174,14 +168,8 @@ img {
     color: #ffffff;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-}
-
-.icon {
-    width: 20px;
-    height: 20px;
-    fill: var(--secondary-light-color);
 }
 
 /* Contact info styles */
