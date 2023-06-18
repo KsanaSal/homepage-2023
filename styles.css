@@ -22,6 +22,11 @@ body {
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .container {
     margin: 0 auto;
@@ -86,13 +91,16 @@ body {
 
 .sidebar {
     background-color: var(--primary-dark-color);
-    padding: 40px 24px;
+    padding: 32px 24px;
     width: 370px;
 }
 
 .photo {
-    width: 370px;
-    margin-bottom: 50px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 0 0 35px 0;
+    overflow: hidden;
 }
 
 .contacts,
