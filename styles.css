@@ -116,6 +116,8 @@ body {
 
 .contact-wrap {
     display: flex;
+    gap: 8px;
+    align-items: center;
 }
 
 .contact-type {
