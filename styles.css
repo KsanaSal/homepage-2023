@@ -139,7 +139,7 @@ ul {
 /* projects style */
 
 .projects {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .title {
@@ -207,7 +207,7 @@ ul {
 /* work style */
 
 .work {
-    margin-bottom: 10px;
+    margin-bottom: 24px;
 }
 
 .work-list {
@@ -265,14 +265,26 @@ ul {
 /* education style */
 
 .education {
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    gap: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--secondary-text-color);
+    background-color: var(--background-light-color);
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.1);
 }
 
 .education-position {
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 20px;
+    line-height: 20px;
     color: #000000;
     margin-bottom: 10px;
 }
