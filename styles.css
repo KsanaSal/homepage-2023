@@ -114,6 +114,12 @@ body {
     margin-bottom: 10px;
 }
 
+.sidebar-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .contact-wrap {
     display: flex;
     gap: 8px;
