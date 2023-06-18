@@ -265,9 +265,12 @@ ul {
 /* education style */
 
 .education {
+    margin-bottom: 24px;
+}
+
+.education-wrap {
     display: flex;
     flex-direction: column;
-    margin-bottom: 24px;
     gap: 4px;
     font-style: normal;
     font-weight: normal;
@@ -286,7 +289,6 @@ ul {
     font-size: 20px;
     line-height: 20px;
     color: #000000;
-    margin-bottom: 10px;
 }
 
 /* sidebar style */
